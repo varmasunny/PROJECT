@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</head>
+    <title>Welcome</title>
+    <style>
+        body{
+	min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://c0.wallpaperflare.com/preview/416/179/610/kings-college-cambridge-uk-university.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.registration{
+	background:rgba(0,0,0,0.3);
+	width:400px;
+	height:300px;
+	margin-top:50px;
+	border-radius:10px;
+	text-align:center;
+}
+
+h3{
+	color:#fff;
+}
+
+.registrationformcontent{
+	margin-top:10px;
+}
+.qw{
+	background-color: rgba(0,0,0,0.3);
+	width:400px;
+	height:-300px;
+	margin-top:50px;
+	border-radius:10px;
+	text-align:center;
+}
+
+</style>
+</head>
+<body >
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+    <img src="img/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-top" style="margin-left:-70px;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>        
+        </ul>
+      </div>
+      
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+      <center><form  method="post" class="registration">
+		<div class="registrationformcontent">
+      <br>
+		<h3 >User Login Page</h3>
+		<label style="margin-left:-140px;color:#fff;">User Id: </label>
+		<br>
+		<input type="number" id="uid" name="usrid" required>
+		<br>
+		<label style="margin-left:-120px;color:#fff;">Password: </label>
+		<br>
+		<input type="password" id="password" name="password" required>
+        <br>
+        <br>
+		<div class="col-s-2" style="margin-left: -70px;">
+			<input type="submit" value="Login" class="btn btn-warning" >
+            <a href="signup.html" style="color: white
+            ;">signUp</a>
+		</div>
+        
+		</div>
+		</form></center>
+</body>
+</html>
