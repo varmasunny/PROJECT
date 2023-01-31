@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <title>Payment</title>
+    <style>
+        body, html {
+          height: 100%;
+          padding: 0;
+          margin: 0;
+        }
+  
+        .center-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 150%;
+          padding: 300px;
+        }
+      </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+        <img src="img/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-top" style="margin-left:-70px;">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>        
+            </ul>
+          </div>
+          
+      </nav>
+    <div class="center-container">
+         <div class="container d-flex h-100">
+            <div class="row align-self-center w-100">
+                <div class="col-6 mx-auto">
+                    <div class="form-group">
+                        <div style="display:inline-block">
+                            <label for="textInput">Amount:</label>
+                            <input type="text" class="form-control" id="textInput">
+                            <br>
+                           <a href="UPI ID.html" ><button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#collapseExample">
+                                UPI Details
+                            </button></a>
+
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                  <p>UPI Reference Id</p>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div style="display:inline-block">
+                            <a href="Card details.html"><button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#collapseExample">
+                                Credit/Debit card Details
+                            </button></a>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                  <p>Card Details</p>
+                                </div>
+                            </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <label for="textInput">Payment Refernece No:</label>
+                                <input type="text" class="form-control" id="textInput">
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-warning">Submit</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+    
+      
+      
+                
+    
+</body>
+</html>
